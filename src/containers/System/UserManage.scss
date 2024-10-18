@@ -1,0 +1,77 @@
+.edit-btn {
+     width: 50% !important;
+     border: none !important;
+     outline: none !important;
+     background: transparent !important;
+     color: orange !important;
+
+     &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+     }
+}
+
+.header-table {
+     background-color: #bae92d;
+     text-transform: uppercase;
+     font-style: bold;
+     color: #ff1e1e;
+
+}
+
+.delete-btn {
+     border: none !important;
+     outline: none !important;
+     background: transparent !important;
+     color: rgb(245, 3, 3) !important;
+
+     &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+     }
+}
+
+.user-container {
+     .container-btn-user {
+          .btn-create-user {
+               display: flex;
+               align-items: center;
+               gap: 5px;
+          }
+     }
+}
+
+.modal-user-container {
+     .modal-header {
+          button {
+               background-color: transparent;
+               border: none;
+               color: white;
+               font-size: 27px;
+          }
+     }
+
+     .modal-user-body {
+          display: flex;
+          gap: 10px;
+          flex-wrap: wrap;
+
+          .input-container {
+               display: flex;
+               flex-direction: column;
+               width: 49%;
+
+               &.max-width-input {
+                    width: 100%;
+               }
+
+               input {
+                    border-radius: 3px;
+                    height: 30px;
+                    border: 1px solid #ccc;
+                    outline: none;
+                    padding: 10px;
+               }
+          }
+     }
+}

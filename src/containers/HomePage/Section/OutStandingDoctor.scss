@@ -1,0 +1,98 @@
+.section-outstanding {
+     margin-top: 40px;
+     height: 400px;
+     background: url('../../../assets/background5.png') center center no-repeat;
+     background-size: cover;
+
+     .outstanding-container {
+          margin: 0 50px;
+          display: flex;
+          flex-direction: column;
+
+          .outstanding-header {
+               height: 60px;
+               margin-bottom: 10px;
+               padding-top: 2 0px;
+
+               span {
+                    font-size: 25px;
+                    font-weight: 600;
+               }
+
+               button {
+                    font-size: 16px;
+                    float: right;
+                    padding: 10px 15px;
+                    outline: none;
+                    border: none;
+                    display: block;
+
+                    &:hover {
+                         background: yellow;
+                         cursor: pointer;
+                    }
+               }
+          }
+
+          .outstanding-body {
+               box-sizing: border-box;
+               margin: 0 30px;
+
+               .img-customize {
+                    height: 300px;
+                    margin-left: 50px;
+
+                    .outstanding-image {
+                         height: 80%;
+                         padding: 0 15px;
+                         border-radius: 72%;
+                         width: 70%;
+                         margin-bottom: 25px;
+                    }
+               }
+
+               h3 {}
+
+          }
+     }
+}
+
+.slick-prev {
+     border: 2px solid #d7d7d7 !important;
+     // position: relative !important;
+     z-index: 1000 !important;
+     width: 44px !important;
+     height: 48px !important;
+     left: -10px !important;
+     background: #fff !important;
+
+     &:hover {
+          background: #d7d7d7 !important;
+     }
+
+}
+
+.slick-next {
+     border: 2px solid #d7d7d7 !important;
+     width: 44px !important;
+     height: 48px !important;
+     right: -10px !important;
+     background: #fff !important;
+
+     &:hover {
+          background: #d7d7d7 !important;
+     }
+
+}
+
+.slick-prev::before {
+     font-family: FontAwesome !important;
+     // content: "\e257" !important;
+     color: red !important;
+}
+
+.slick-next::before {
+     font-family: FontAwesome !important;
+     // content: "\e257" !important;
+     color: red !important;
+}
