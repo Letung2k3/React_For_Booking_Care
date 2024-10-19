@@ -69,6 +69,7 @@
         "role": "Role",
         "image": "Avatar",
         "save": "Save",
-        "password": "Password"
+        "password": "Password",
+        "Upload-Image": "Upload image"
     }
 }
